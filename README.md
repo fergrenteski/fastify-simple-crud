@@ -14,7 +14,7 @@ Você precisará ter o Node.js e o npm instalados na sua máquina.
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/fastify-simple-crud.git
+    git clone https://github.com/fergrenteski/fastify-simple-crud.git
     cd fastify-simple-crud
     ```
 
@@ -105,4 +105,4 @@ Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para abrir uma i
 
 ---
 
-Feito com ❤️ por [Luiz Fernando](https://github.com/seu-usuario)
+Feito com ❤️ por [Luiz Fernando](https://github.com/fergrenteski)
