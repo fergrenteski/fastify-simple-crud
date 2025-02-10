@@ -1,0 +1,32 @@
+# Rota para criar um novo vídeo
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+  "title": "Video 3",
+  "description": "Video 3",
+  "duration": 3600
+}
+
+###
+# Rota para listar todos os vídeos
+GET http://localhost:3333/videos
+
+###
+# Rota para listar vídeos com base em uma string de busca
+GET http://localhost:3333/videos?search=teste
+
+###
+# Rota para atualizar um vídeo existente
+PUT http://localhost:3333/videos/221e1936-3fc6-4731-9f82-a359e455c60c
+Content-Type: application/json
+
+{
+  "title": "Video teste teste teste",
+  "description": "Video 2",
+  "duration": 3600
+}
+
+###
+# Rota para excluir um vídeo existente
+DELETE http://localhost:3333/videos/a4012d32-098a-420a-87f8-a8641648cbb5
